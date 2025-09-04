@@ -1,0 +1,27 @@
+{
+  "name": "prs_backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "100723793",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.17.0",
+    "pg": "^8.16.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
